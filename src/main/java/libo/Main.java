@@ -1,4 +1,4 @@
-package main.java.haitho;
+package main.java.libo;
 
 import java.util.ArrayList;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package main.java.haitho;
+package main.java.libo;
 
 interface BookState {
     void handleRequest(Book book);

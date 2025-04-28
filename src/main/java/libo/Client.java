@@ -1,4 +1,4 @@
-package main.java.haitho;
+package main.java.libo;
 import java.util.ArrayList;
 
 interface UserI {
@@ -129,10 +129,10 @@ class ClientFactory implements UserFactoryI {
         return new Client(name, surname, email, password, id);
     }
 }
+
 class AdminFactory implements UserFactoryI {
     @Override
     public UserI createUser(String name, String surname, String email, String password, int id) {
         return new Admin(name, surname, email, password, id);
     }
 }
-
